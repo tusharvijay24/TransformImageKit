@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TransformImageKit_Example' do
+  pod 'TransformImageKit', :path => '../'
+
+  target 'TransformImageKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
