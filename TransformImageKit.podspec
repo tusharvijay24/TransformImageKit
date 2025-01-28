@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint TransformImageKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'TransformImageKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TransformImageKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.0'
+  s.summary          = 'A Swift library for image transformations.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       TransformImageKit provides a set of tools to resize, convert, and manage images efficiently in Swift.
                        DESC
 
-  s.homepage         = 'https://github.com/tusharvijay49/TransformImageKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/tusharvijay24/TransformImageKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tusharvijay49' => 'tusharvijayvargiya24112000@gmail.com' }
-  s.source           = { :git => 'https://github.com/tusharvijay49/TransformImageKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'tusharvijay24' => 'tusharvijayvargiya24112000@gmail.com' }
+  s.source           = { :git => 'https://github.com/tusharvijay24/TransformImageKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'TransformImageKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TransformImageKit' => ['TransformImageKit/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'IQKeyboardManager'
+   s.dependency 'SDWebImage'
+   s.dependency 'ZIPFoundation'
 end

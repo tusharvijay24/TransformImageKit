@@ -1,0 +1,6 @@
+framework module TransformImageKit {
+  umbrella header "TransformImageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

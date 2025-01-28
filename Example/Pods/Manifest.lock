@@ -1,0 +1,33 @@
+PODS:
+  - IQKeyboardManager (6.5.11)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - TransformImageKit (1.0.0):
+    - IQKeyboardManager
+    - SDWebImage
+    - ZIPFoundation
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - TransformImageKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - SDWebImage
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  TransformImageKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  TransformImageKit: c2fd14ae3fddfed308d2a5838ff15a3ba00cf709
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 783d85098e1b58cf48e61b0b15afe210f4282dd6
+
+COCOAPODS: 1.16.2
