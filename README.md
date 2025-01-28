@@ -17,7 +17,7 @@ TransformImageKit is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TransformImageKit'
+pod 'TransformImageKit', :git => 'https://github.com/tusharvijay24/TransformImageKit.git'
 ```
 
 ## Author
