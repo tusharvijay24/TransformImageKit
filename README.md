@@ -1,9 +1,6 @@
 # TransformImageKit
 
-[![CI Status](https://img.shields.io/travis/tusharvijay24/TransformImageKit.svg?style=flat)](https://travis-ci.org/tusharvijay24/TransformImageKit)  
-[![Version](https://img.shields.io/cocoapods/v/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)  
-[![License](https://img.shields.io/cocoapods/l/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)  
-[![Platform](https://img.shields.io/cocoapods/p/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)
+[![CI Status](https://img.shields.io/travis/tusharvijay24/TransformImageKit.svg?style=flat)](https://travis-ci.org/tusharvijay24/TransformImageKit)  [![Version](https://img.shields.io/cocoapods/v/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)  [![License](https://img.shields.io/cocoapods/l/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)  [![Platform](https://img.shields.io/cocoapods/p/TransformImageKit.svg?style=flat)](https://cocoapods.org/pods/TransformImageKit)
 
 **TransformImageKit** is a powerful Swift library designed for image conversion, resizing, and compression in iOS applications.
 
